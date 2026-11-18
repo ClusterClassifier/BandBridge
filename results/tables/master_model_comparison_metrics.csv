@@ -1,0 +1,5 @@
+Model,Architecture_Family,Best_Epoch,Overall_Accuracy (%),Cohens_Kappa,Macro_F1 (%),Weighted_F1 (%),Mean_IoU (%),Training_Time_Per_Epoch (s),Inference_Time_Per_Patch (ms),Parameters (M),GFLOPs,Peak_GPU_Memory (MB)
+ResNet-50,CNN Baseline,16,75.72,0.5863,69.52,74.93,54.91,15.183,5.502,23.54,0.7123,512.17
+EfficientNet-B0,CNN Baseline,36,73.6,0.5249,55.88,71.75,44.25,17.442,7.976,4.016,0.0681,426.44
+Swin-Tiny,Vision Transformer,16,80.59,0.6695,76.11,80.14,62.47,69.59,13.367,27.534,8.7799,2700.03
+ViT-B/16,Vision Transformer,19,74.97,0.5843,68.4,74.59,53.29,26.07,6.745,87.179,2.9521,2128.52

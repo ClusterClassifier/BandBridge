@@ -1,0 +1,11 @@
+Class_ID,LULC_Class,Example_Index,ResNet50_GradCAM_Active_Area (%),ViT_Attention_Rollout_Active_Area (%),SwinTiny_Attention_Active_Area (%),Spatial_Correlation_CNN_vs_ViT
+0,Urban / Built-up,1,29.86,4.96,3.81,0.082
+0,Urban / Built-up,2,27.12,2.59,3.03,0.4509
+1,Cropland / Agriculture,1,22.61,9.33,0.76,0.2967
+1,Cropland / Agriculture,2,23.8,3.08,1.34,-0.0779
+2,Forest / Dense Veg.,1,0.0,3.42,4.71,
+2,Forest / Dense Veg.,2,28.81,1.37,1.46,-0.1059
+3,Sparse Veg. / Shrubland,1,26.42,13.11,1.76,-0.271
+3,Sparse Veg. / Shrubland,2,32.23,3.83,1.1,0.1373
+4,Water Bodies,1,31.81,1.71,1.03,-0.2141
+4,Water Bodies,2,30.03,11.5,0.98,-0.3335

@@ -1,0 +1,7 @@
+Augmentation_Policy,Model,Overall_Accuracy (%),Cohens_Kappa,Macro_F1 (%),Weighted_F1 (%)
+No Augmentation,ResNet-50,74.7,0.5641,67.22,73.91
+No Augmentation,Swin-Tiny,75.83,0.6003,69.94,75.66
+Geometric Only (Flips/Rot),ResNet-50,77.05,0.6245,70.53,77.01
+Geometric Only (Flips/Rot),Swin-Tiny,81.06,0.6846,75.37,80.93
+Geometric + Sensor Noise,ResNet-50,75.72,0.5863,69.52,74.93
+Geometric + Sensor Noise,Swin-Tiny,80.59,0.6695,76.11,80.14

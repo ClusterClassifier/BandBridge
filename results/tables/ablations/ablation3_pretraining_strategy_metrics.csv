@@ -1,0 +1,7 @@
+Pretraining_Strategy,Model,Best_Convergence_Epoch,Overall_Accuracy (%),Cohens_Kappa,Macro_F1 (%),Weighted_F1 (%)
+Random Initialization,ResNet-50,17,76.23,0.6117,72.45,76.28
+ImageNet Pretraining,ResNet-50,16,75.72,0.5863,69.52,74.93
+Domain-Specific Pretraining,ResNet-50,7,77.05,0.632,67.52,77.28
+Random Initialization,Swin-Tiny,19,81.81,0.6966,76.56,81.61
+ImageNet Pretraining,Swin-Tiny,16,80.59,0.6695,76.11,80.14
+Domain-Specific Pretraining,Swin-Tiny,17,81.26,0.6874,76.26,81.08

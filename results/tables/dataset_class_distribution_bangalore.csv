@@ -1,0 +1,6 @@
+Class_ID,LULC_Class,Train_Patches,Val_Patches,Test_Patches,Total_Patches,Percentage (%)
+0,Urban / Built-up,575,123,123,821,4.84
+1,Cropland / Agriculture,6640,1423,1423,9486,55.93
+2,Forest / Dense Veg.,2105,451,451,3007,17.73
+3,Sparse Veg. / Shrubland,2478,531,531,3540,20.87
+4,Water Bodies,75,16,17,108,0.64

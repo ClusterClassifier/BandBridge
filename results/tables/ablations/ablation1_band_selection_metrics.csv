@@ -1,0 +1,7 @@
+Band_Configuration,Num_Channels,Bands_Included,Model,Overall_Accuracy (%),Cohens_Kappa,Macro_F1 (%),Weighted_F1 (%),GFLOPs,Inference_Latency (ms)
+RGB Only (3 Bands),3,"B2, B3, B4",ResNet-50,68.84,0.4301,50.49,65.97,0.6673,5.864
+RGB Only (3 Bands),3,"B2, B3, B4",Swin-Tiny,75.72,0.5669,65.69,73.84,8.7125,13.703
+RGB + NIR (4 Bands),4,"B2, B3, B4, B8",ResNet-50,70.61,0.4574,62.86,67.58,0.6737,5.668
+RGB + NIR (4 Bands),4,"B2, B3, B4, B8",Swin-Tiny,78.78,0.653,70.74,78.64,8.7221,13.521
+All 10 Spectral Bands,10,"B2, B3, B4, B8, B5, B6, B7, B8A, B11, B12",ResNet-50,75.72,0.5863,69.52,74.93,0.7123,5.502
+All 10 Spectral Bands,10,"B2, B3, B4, B8, B5, B6, B7, B8A, B11, B12",Swin-Tiny,80.59,0.6695,76.11,80.14,8.7799,13.367

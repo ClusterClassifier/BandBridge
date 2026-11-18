@@ -1,0 +1,7 @@
+Imbalance_Strategy,Model,Overall_Accuracy (%),Cohens_Kappa,Macro_F1 (%),Minority_Classes_Mean_F1 (%),Water_Bodies_F1 (%)
+No Weighting (Standard CE),ResNet-50,75.72,0.5863,69.52,66.17,54.55
+Class-Weighted CE Loss,ResNet-50,71.79,0.5576,67.78,67.85,55.81
+Minority Class Oversampling,ResNet-50,76.54,0.6243,72.12,70.36,57.14
+No Weighting (Standard CE),Swin-Tiny,80.59,0.6695,76.11,74.9,64.52
+Class-Weighted CE Loss,Swin-Tiny,80.24,0.683,76.7,75.35,63.16
+Minority Class Oversampling,Swin-Tiny,80.94,0.6799,74.37,72.21,53.33

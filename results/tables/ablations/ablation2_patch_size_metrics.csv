@@ -1,0 +1,7 @@
+Patch_Size,Spatial_Coverage_m,Model,Overall_Accuracy (%),Cohens_Kappa,Macro_F1 (%),GFLOPs,Inference_Latency (ms),Training_Time_Epoch (s)
+32x32,320m x 320m,ResNet-50,73.16,0.5427,61.96,0.1781,6.691,14.485
+32x32,320m x 320m,Swin-Tiny,79.06,0.6367,73.2,8.7799,13.822,69.491
+64x64,640m x 640m,ResNet-50,75.72,0.5863,69.52,0.7123,5.502,15.183
+64x64,640m x 640m,Swin-Tiny,80.59,0.6695,76.11,8.7799,13.367,69.59
+128x128,1280m x 1280m,ResNet-50,73.91,0.5589,58.8,2.849,5.684,30.072
+128x128,1280m x 1280m,Swin-Tiny,80.08,0.6546,74.46,8.7799,13.606,69.889

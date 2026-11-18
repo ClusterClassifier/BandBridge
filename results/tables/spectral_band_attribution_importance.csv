@@ -1,0 +1,41 @@
+Model,Band,Band_Name,Wavelength_nm,Relative_Importance (%)
+ResNet-50,B2,B2 (Blue),490,6.57
+ResNet-50,B3,B3 (Green),560,8.93
+ResNet-50,B4,B4 (Red),665,6.96
+ResNet-50,B8,B8 (NIR),842,13.54
+ResNet-50,B5,B5 (Red Edge 1),705,6.05
+ResNet-50,B6,B6 (Red Edge 2),740,11.48
+ResNet-50,B7,B7 (Red Edge 3),783,13.23
+ResNet-50,B8A,B8A (Narrow NIR),865,14.14
+ResNet-50,B11,B11 (SWIR 1),1610,11.19
+ResNet-50,B12,B12 (SWIR 2),2190,7.9
+EfficientNet-B0,B2,B2 (Blue),490,10.44
+EfficientNet-B0,B3,B3 (Green),560,14.91
+EfficientNet-B0,B4,B4 (Red),665,7.42
+EfficientNet-B0,B8,B8 (NIR),842,12.58
+EfficientNet-B0,B5,B5 (Red Edge 1),705,4.96
+EfficientNet-B0,B6,B6 (Red Edge 2),740,9.65
+EfficientNet-B0,B7,B7 (Red Edge 3),783,11.26
+EfficientNet-B0,B8A,B8A (Narrow NIR),865,12.36
+EfficientNet-B0,B11,B11 (SWIR 1),1610,9.54
+EfficientNet-B0,B12,B12 (SWIR 2),2190,6.87
+Swin-Tiny,B2,B2 (Blue),490,10.74
+Swin-Tiny,B3,B3 (Green),560,11.63
+Swin-Tiny,B4,B4 (Red),665,10.22
+Swin-Tiny,B8,B8 (NIR),842,17.92
+Swin-Tiny,B5,B5 (Red Edge 1),705,6.86
+Swin-Tiny,B6,B6 (Red Edge 2),740,4.56
+Swin-Tiny,B7,B7 (Red Edge 3),783,7.98
+Swin-Tiny,B8A,B8A (Narrow NIR),865,9.84
+Swin-Tiny,B11,B11 (SWIR 1),1610,17.0
+Swin-Tiny,B12,B12 (SWIR 2),2190,3.25
+ViT-B/16,B2,B2 (Blue),490,9.87
+ViT-B/16,B3,B3 (Green),560,5.09
+ViT-B/16,B4,B4 (Red),665,10.57
+ViT-B/16,B8,B8 (NIR),842,12.21
+ViT-B/16,B5,B5 (Red Edge 1),705,8.23
+ViT-B/16,B6,B6 (Red Edge 2),740,10.21
+ViT-B/16,B7,B7 (Red Edge 3),783,10.9
+ViT-B/16,B8A,B8A (Narrow NIR),865,10.58
+ViT-B/16,B11,B11 (SWIR 1),1610,15.3
+ViT-B/16,B12,B12 (SWIR 2),2190,7.04

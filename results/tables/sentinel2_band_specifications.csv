@@ -1,0 +1,11 @@
+band,name,wavelength_nm,native_res_m,target_res_m,resampling
+B2,Blue,490,10,10,Native 10m
+B3,Green,560,10,10,Native 10m
+B4,Red,665,10,10,Native 10m
+B8,NIR,842,10,10,Native 10m
+B5,Red Edge 1,705,20,10,20m -> 10m Bilinear Interpolation
+B6,Red Edge 2,740,20,10,20m -> 10m Bilinear Interpolation
+B7,Red Edge 3,783,20,10,20m -> 10m Bilinear Interpolation
+B8A,Narrow NIR,865,20,10,20m -> 10m Bilinear Interpolation
+B11,SWIR 1,1610,20,10,20m -> 10m Bilinear Interpolation
+B12,SWIR 2,2190,20,10,20m -> 10m Bilinear Interpolation

@@ -1,0 +1,48 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# PyTorch / Model Checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Large Raw Satellite Imagery & Geospatial Rasters (keep out of Git)
+*.SAFE/
+*.jp2
+*.tif
+*.tiff
+*.zip
+*.tar.gz
+data/raw/
+datasets/
+
+# LaTeX Build Artifacts (keep .tex, .bib, .cls, and final .pdf)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+page_preview*.png
+page_6p*.png
+compile*.log
+bibtex.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

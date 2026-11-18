@@ -1,0 +1,6 @@
+LULC_Class,EfficientNet-B0,ResNet-50,Swin-Tiny,ViT-B/16,Best_Model
+Urban / Built-up,84.02,86.81,89.08,82.21,Swin-Tiny
+Cropland / Agriculture,82.16,83.11,86.42,82.84,Swin-Tiny
+Forest / Dense Veg.,59.56,57.14,71.11,58.76,Swin-Tiny
+Sparse Veg. / Shrubland,53.68,66.01,69.43,64.85,Swin-Tiny
+Water Bodies,0.0,54.55,64.52,53.33,Swin-Tiny

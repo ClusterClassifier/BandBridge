@@ -1,0 +1,21 @@
+Model,Architecture_Family,Class_ID,LULC_Class,Precision (%),Recall (%),F1_Score (%),IoU (%),Test_Support
+ResNet-50,CNN Baseline,0,Urban / Built-up,91.07,82.93,86.81,76.69,123
+ResNet-50,CNN Baseline,1,Cropland / Agriculture,79.15,87.49,83.11,71.1,1423
+ResNet-50,CNN Baseline,2,Forest / Dense Veg.,80.32,44.35,57.14,40.0,451
+ResNet-50,CNN Baseline,3,Sparse Veg. / Shrubland,63.01,69.3,66.01,49.26,531
+ResNet-50,CNN Baseline,4,Water Bodies,44.44,70.59,54.55,37.5,17
+EfficientNet-B0,CNN Baseline,0,Urban / Built-up,95.83,74.8,84.02,72.44,123
+EfficientNet-B0,CNN Baseline,1,Cropland / Agriculture,73.77,92.69,82.16,69.71,1423
+EfficientNet-B0,CNN Baseline,2,Forest / Dense Veg.,70.73,51.44,59.56,42.41,451
+EfficientNet-B0,CNN Baseline,3,Sparse Veg. / Shrubland,70.55,43.31,53.68,36.68,531
+EfficientNet-B0,CNN Baseline,4,Water Bodies,0.0,0.0,0.0,0.0,17
+Swin-Tiny,Vision Transformer,0,Urban / Built-up,92.17,86.18,89.08,80.3,123
+Swin-Tiny,Vision Transformer,1,Cropland / Agriculture,82.27,91.0,86.42,76.09,1423
+Swin-Tiny,Vision Transformer,2,Forest / Dense Veg.,80.22,63.86,71.11,55.17,451
+Swin-Tiny,Vision Transformer,3,Sparse Veg. / Shrubland,72.88,66.29,69.43,53.17,531
+Swin-Tiny,Vision Transformer,4,Water Bodies,71.43,58.82,64.52,47.62,17
+ViT-B/16,Vision Transformer,0,Urban / Built-up,80.0,84.55,82.21,69.8,123
+ViT-B/16,Vision Transformer,1,Cropland / Agriculture,81.6,84.12,82.84,70.7,1423
+ViT-B/16,Vision Transformer,2,Forest / Dense Veg.,74.91,48.34,58.76,41.6,451
+ViT-B/16,Vision Transformer,3,Sparse Veg. / Shrubland,59.16,71.75,64.85,47.98,531
+ViT-B/16,Vision Transformer,4,Water Bodies,61.54,47.06,53.33,36.36,17

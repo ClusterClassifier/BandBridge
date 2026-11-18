@@ -1,0 +1,23 @@
+# Core PyTorch (install CUDA-matched wheel if needed: https://pytorch.org/get-started/locally/)
+torch
+torchvision
+
+# Geospatial & Raster Processing
+rasterio
+geopandas
+shapely
+
+# Deep Learning & Vision Transformer Backbones
+timm
+transformers
+accelerate
+
+# Model Profiling & Explainability (Grad-CAM)
+ptflops
+fvcore
+grad-cam
+
+# Machine Learning, Visualization & Utilities
+scikit-learn
+seaborn
+tqdm
